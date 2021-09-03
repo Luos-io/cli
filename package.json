@@ -11,13 +11,14 @@
     "bin"
   ],
   "scripts": {
-    "dev": "./node_modules/.bin/tsc -w",
-    "build": "yarn clean && ./node_modules/.bin/tsc && chmod +x ./bin/src/index.js",
+    "dev": "tsc -w & tsc-alias -w",
+    "build": "yarn clean && tsc && tsc-alias && chmod +x ./bin/src/index.js",
     "clean": "rm -rf ./bin"
   },
   "devDependencies": {
     "@types/node": "^16.4.14",
     "@types/serialport": "^8.0.2",
+    "tsc-alias": "^1.3.9",
     "typescript": "^4.3.5"
   },
   "dependencies": {

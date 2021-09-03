@@ -16,7 +16,8 @@
     "baseUrl": "src",
     "outDir": "bin",
     "paths": {
-      "interfaces/*": ["interfaces/*"]
+      "interfaces": ["src/interfaces/*"],
+      "commands": ["src/commands/*"]
     }
   },
   "include": ["src"]
