@@ -1,0 +1,15 @@
+/**
+ * ModuleType
+ * @description Type of module
+ * @link Gate - https://docs.luos.io/pages/embedded/tools/gate.html
+ * @enum {string}
+ */
+export enum ModuleType {
+  GATE = 'GATE',
+  SNIFFER = 'SNIFFER',
+}
+
+export const moduleTypeEnum = Object.keys(ModuleType).map((t) =>
+  t.toLowerCase(),
+);
+export default moduleTypeEnum;

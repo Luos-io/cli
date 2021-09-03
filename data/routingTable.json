@@ -1,0 +1,22 @@
+{
+  "routing_table": [
+    {
+      "node_id": 1,
+      "certified": false,
+      "port_table": [2, 65535],
+      "containers": [{ "type": "Gate", "id": 1, "alias": "gate" }]
+    },
+    {
+      "node_id": 2,
+      "certified": false,
+      "port_table": [3, 1],
+      "containers": [{ "type": "Angle", "id": 2, "alias": "potentiometer_m" }]
+    },
+    {
+      "node_id": 3,
+      "certified": false,
+      "port_table": [65535, 2],
+      "containers": [{ "type": "Color", "id": 3, "alias": "rgb_led_mod" }]
+    }
+  ]
+}
