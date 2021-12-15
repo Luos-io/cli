@@ -1,3 +1,3 @@
-import { List } from './list';
+import { inspect } from './inspect/index.js';
+import { list } from './list/index.js';
 
-export { List };
