@@ -1,7 +1,8 @@
 {
-  "name": "cli",
+  "name": "@luos-io/cli",
   "version": "0.0.1",
-  "main": "./bin/src/index.js",
+  "type": "module",
+  "export": "./bin/src/index.js",
   "author": "Luos",
   "license": "MIT",
   "bin": {
