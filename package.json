@@ -26,6 +26,6 @@
   "dependencies": {
     "@luos-io/sdk-ts": "^0.0.1",
     "commander": "^8.1.0",
-    "serialport": "^9.2.8"
+    "serialport": "^11.0.0"
   }
 }
